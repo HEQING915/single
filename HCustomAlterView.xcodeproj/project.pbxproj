@@ -15,6 +15,8 @@
 		1FEFBE9C20044AFE00A643A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFBE9B20044AFE00A643A4 /* main.m */; };
 		1FEFBEA620044AFE00A643A4 /* HCustomAlterViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFBEA520044AFE00A643A4 /* HCustomAlterViewTests.m */; };
 		1FEFBEB120044AFE00A643A4 /* HCustomAlterViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFBEB020044AFE00A643A4 /* HCustomAlterViewUITests.m */; };
+		1FEFBEC92004646500A643A4 /* HCustomAlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFBEC62004646500A643A4 /* HCustomAlterView.m */; };
+		1FEFBECA2004646500A643A4 /* UIView+FLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFBEC82004646500A643A4 /* UIView+FLExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1FEFBEAC20044AFE00A643A4 /* HCustomAlterViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCustomAlterViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEFBEB020044AFE00A643A4 /* HCustomAlterViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCustomAlterViewUITests.m; sourceTree = "<group>"; };
 		1FEFBEB220044AFE00A643A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEFBEC52004646500A643A4 /* HCustomAlterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCustomAlterView.h; sourceTree = "<group>"; };
+		1FEFBEC62004646500A643A4 /* HCustomAlterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCustomAlterView.m; sourceTree = "<group>"; };
+		1FEFBEC72004646500A643A4 /* UIView+FLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FLExtension.h"; sourceTree = "<group>"; };
+		1FEFBEC82004646500A643A4 /* UIView+FLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FLExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		1FEFBE8B20044AFD00A643A4 /* HCustomAlterView */ = {
 			isa = PBXGroup;
 			children = (
+				1FEFBEC42004646500A643A4 /* HCustomAlter */,
 				1FEFBE8C20044AFD00A643A4 /* AppDelegate.h */,
 				1FEFBE8D20044AFE00A643A4 /* AppDelegate.m */,
 				1FEFBE8F20044AFE00A643A4 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				1FEFBEB220044AFE00A643A4 /* Info.plist */,
 			);
 			path = HCustomAlterViewUITests;
+			sourceTree = "<group>";
+		};
+		1FEFBEC42004646500A643A4 /* HCustomAlter */ = {
+			isa = PBXGroup;
+			children = (
+				1FEFBEC52004646500A643A4 /* HCustomAlterView.h */,
+				1FEFBEC62004646500A643A4 /* HCustomAlterView.m */,
+				1FEFBEC72004646500A643A4 /* UIView+FLExtension.h */,
+				1FEFBEC82004646500A643A4 /* UIView+FLExtension.m */,
+			);
+			path = HCustomAlter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FEFBECA2004646500A643A4 /* UIView+FLExtension.m in Sources */,
 				1FEFBE9120044AFE00A643A4 /* ViewController.m in Sources */,
 				1FEFBE9C20044AFE00A643A4 /* main.m in Sources */,
 				1FEFBE8E20044AFE00A643A4 /* AppDelegate.m in Sources */,
+				1FEFBEC92004646500A643A4 /* HCustomAlterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
